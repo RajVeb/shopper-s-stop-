@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+.brandslogo img{
+  width: 90%;
+    margin-left: 78px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ---------------------------------------MENS------------------------------------------ */
+
+.menheading h2 {
+  margin-left: 118px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: cursive;
+  margin-bottom: 42px;
+  margin-top: 23px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mensbrand  {
+    display: flex;
+    height: 184px;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menposter{
+  margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 359px;
+}
+
+/* ---------------------------------------WOMEN------------------------------------------ */
+
+.womenheading h2 {
+  margin-left: 118px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: cursive;
+  margin-bottom: 42px;
+  margin-top: 80px;
+}
+
+
+
+.womensbrand  {
+    display: flex;
+    height: 184px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.womenposter{
+  margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 359px;
+}
+
+
+/* ---------------------------------------KIDS------------------------------------------ */
+
+
+.kidsheading h2 {
+  margin-left: 118px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: cursive;
+  margin-bottom: 42px;
+  margin-top: 80px;
+}
+
+
+
+.kidsbrand  {
+    display: flex;
+    height: 184px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kidsposter{
+  margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 359px;
+}
+
+.offer img{
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.Printpattern img{
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.lastcontent img{
+  width: 100%;
+}
+
+.last img{
+
+      width: 77%;
+  margin-top: 10%;
+  margin-left: 185px;
+}
+
+/* --------------------------------------------HOME JS END------------------------------------------------------- */
+
+/* ---------------------------------------------MEN JS START------------------------------------------------------ */
+
+.mens-main{
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 74px;
+
+}
+
+.mens-main img{
+  width: 234px;
+}
+
+.Smartcarousel{
+  margin-top: 100px;
+}
+
+.spotlight img{
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.sib{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    height: 184px;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.LatestTrends img {
+  width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.LT{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 359px;
+}
+
+.CG{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 8%;
+  
+}
+
+
+.CG card {
+  display: flex;
+    margin-right: 7%;
+    border: 1px solid #e1e1e1;
+}
+
+.tshirt h1{
+  
+  font-size: 46px;
+  font-weight: 700;
+  font-family: cursive;
+  text-align: center;
+    margin-top: 36px;
 }
